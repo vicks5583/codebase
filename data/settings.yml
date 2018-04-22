@@ -1,0 +1,46 @@
+CurrentServer: qa
+seleniumserver: local
+browser: chrome
+timeOut: 60
+seleniumserverhost: http://hostIP:4444/wd/hub
+
+baseUrl:
+appUrl:
+
+#baseUrl: 
+#appUrl: 
+
+BOLNewsUrl: https://www.bolnews.com/
+BOLNetworkUrl: https://www.bolnetwork.com/
+BolwalaUrl: https://bolwala.com/
+BolwalaMerchantUrl: https://bolwala.com/merchant
+
+googleUrl: https://www.google.com/
+
+ArpatechUrl: https://www.arpatech.com/
+
+BravoUrl: http://app.livetam.com/signin
+
+email:
+    recepients: 
+        recepient1: waqas.ahmed@cubixlabs.com
+
+user:
+   admins:
+    farazsaleem@rs.com: 123456
+    all@all.com: W4llstreet@12345
+   editorial:
+    username: ahmed.siddiqui@bolnetwork.com
+    password: Bol12345
+   analyst: 
+    username: ahmed.siddiqui@bolnetwork.com
+    password: Bol12345
+   Subscriber:
+    username: ahmed.siddiqui@bolnetwork.com
+    password: Bol12345
+    
+Visits:
+
+proAction:
+ Chamber: Assembly
+                      

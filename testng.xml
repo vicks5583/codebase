@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CodeBaseSuite">
+  <test thread-count="5" name="RegressionTest">
+    <classes>
+      <class name="com.codebase.WebTestClass"/>
+      <class name="com.codebase.WebTestClass3"/>
+      <class name="com.codebase.WebTestClass2"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+</suite> <!-- CodeBaseSuite -->

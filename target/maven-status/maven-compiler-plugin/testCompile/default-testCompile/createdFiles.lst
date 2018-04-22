@@ -1,0 +1,10 @@
+com\codebase\WebTestClass3.class
+com\util\StringMatcher.class
+com\util\YamlReader.class
+com\codebase\WebTestClass2.class
+com\baseClass\BaseUi.class
+com\baseClass\AbstractClass.class
+com\resources\DSLLibDesktop.class
+com\codebase\ui\WebTestClass_UI.class
+com\baseClass\BaseClass.class
+com\codebase\WebTestClass.class
