@@ -112,11 +112,11 @@
 							<mailssl>true</mailssl>
 							<mailAltConfig>true</mailAltConfig>
 							<!-- Email Authentication(USername and Password) -->
-							<mailuser>waqas.hussain.83@gmail.com</mailuser>
-							<mailpassword>Gimmeabreakwillya5</mailpassword>
+							<mailuser>akbar55831@gmail.com</mailuser>
+							<mailpassword>tinap786</mailpassword>
 							<receivers>
 								<!-- To Email address -->
-								<receiver>waqas.hussain.83@gmail.com</receiver>
+								<receiver>akbar55831@gmail.com</receiver>
 							</receivers>
 							<fileSets>
 								<fileSet>
