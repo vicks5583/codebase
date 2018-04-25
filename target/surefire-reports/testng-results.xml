@@ -56,12 +56,12 @@
       <![CDATA[=================================================================]]>
     </line>
   </reporter-output>
-  <suite started-at="2018-04-25T14:22:48Z" name="CodeBaseSuite" finished-at="2018-04-25T14:23:55Z" duration-ms="67053">
+  <suite started-at="2018-04-25T18:37:20Z" name="CodeBaseSuite" finished-at="2018-04-25T18:37:56Z" duration-ms="36539">
     <groups>
     </groups>
-    <test started-at="2018-04-25T14:22:48Z" name="Regressions" finished-at="2018-04-25T14:23:55Z" duration-ms="67053">
+    <test started-at="2018-04-25T18:37:20Z" name="Regressions" finished-at="2018-04-25T18:37:56Z" duration-ms="36539">
       <class name="com.codebase.WebTestClass3">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.codebase.WebTestClass3@38e79ae3]" started-at="2018-04-25T14:23:31Z" name="beforeClass" finished-at="2018-04-25T14:23:51Z" duration-ms="20943" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.codebase.WebTestClass3@2d2ffcb7]" started-at="2018-04-25T18:37:45Z" name="beforeClass" finished-at="2018-04-25T18:37:53Z" duration-ms="8028" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[setting value isnull]]>
@@ -83,37 +83,37 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Test01_Verify_Google_Title()[pri:0, instance:com.codebase.WebTestClass3@38e79ae3]" started-at="2018-04-25T14:23:51Z" name="Test01_Verify_Google_Title" finished-at="2018-04-25T14:23:52Z" duration-ms="16" status="PASS">
+        <test-method signature="Test01_Verify_Google_Title()[pri:0, instance:com.codebase.WebTestClass3@2d2ffcb7]" started-at="2018-04-25T18:37:53Z" name="Test01_Verify_Google_Title" finished-at="2018-04-25T18:37:53Z" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01_Verify_Google_Title -->
-        <test-method signature="Test02_Verify_Google_Search_Button()[pri:0, instance:com.codebase.WebTestClass3@38e79ae3]" started-at="2018-04-25T14:23:52Z" name="Test02_Verify_Google_Search_Button" finished-at="2018-04-25T14:23:52Z" duration-ms="85" status="PASS">
+        <test-method signature="Test02_Verify_Google_Search_Button()[pri:0, instance:com.codebase.WebTestClass3@2d2ffcb7]" started-at="2018-04-25T18:37:53Z" name="Test02_Verify_Google_Search_Button" finished-at="2018-04-25T18:37:53Z" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test02_Verify_Google_Search_Button -->
-        <test-method signature="Test03_Verify_Google_Feeling_Lucky_Button()[pri:0, instance:com.codebase.WebTestClass3@38e79ae3]" started-at="2018-04-25T14:23:52Z" name="Test03_Verify_Google_Feeling_Lucky_Button" finished-at="2018-04-25T14:23:52Z" duration-ms="60" status="PASS">
+        <test-method signature="Test03_Verify_Google_Feeling_Lucky_Button()[pri:0, instance:com.codebase.WebTestClass3@2d2ffcb7]" started-at="2018-04-25T18:37:53Z" name="Test03_Verify_Google_Feeling_Lucky_Button" finished-at="2018-04-25T18:37:53Z" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03_Verify_Google_Feeling_Lucky_Button -->
-        <test-method signature="Test04_Verify_Google_Field()[pri:0, instance:com.codebase.WebTestClass3@38e79ae3]" started-at="2018-04-25T14:23:52Z" name="Test04_Verify_Google_Field" finished-at="2018-04-25T14:23:52Z" duration-ms="85" status="PASS">
+        <test-method signature="Test04_Verify_Google_Field()[pri:0, instance:com.codebase.WebTestClass3@2d2ffcb7]" started-at="2018-04-25T18:37:53Z" name="Test04_Verify_Google_Field" finished-at="2018-04-25T18:37:53Z" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04_Verify_Google_Field -->
-        <test-method signature="Test05_Type_In_Google_Field()[pri:0, instance:com.codebase.WebTestClass3@38e79ae3]" started-at="2018-04-25T14:23:52Z" name="Test05_Type_In_Google_Field" finished-at="2018-04-25T14:23:52Z" duration-ms="319" status="PASS">
+        <test-method signature="Test05_Type_In_Google_Field()[pri:0, instance:com.codebase.WebTestClass3@2d2ffcb7]" started-at="2018-04-25T18:37:53Z" name="Test05_Type_In_Google_Field" finished-at="2018-04-25T18:37:54Z" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05_Type_In_Google_Field -->
-        <test-method signature="Test06_Verify_Country_Name()[pri:0, instance:com.codebase.WebTestClass3@38e79ae3]" started-at="2018-04-25T14:23:52Z" name="Test06_Verify_Country_Name" finished-at="2018-04-25T14:23:52Z" duration-ms="132" status="PASS">
+        <test-method signature="Test06_Verify_Country_Name()[pri:0, instance:com.codebase.WebTestClass3@2d2ffcb7]" started-at="2018-04-25T18:37:54Z" name="Test06_Verify_Country_Name" finished-at="2018-04-25T18:37:54Z" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test06_Verify_Country_Name -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.codebase.WebTestClass3@38e79ae3]" started-at="2018-04-25T14:23:52Z" name="afterClass" finished-at="2018-04-25T14:23:55Z" duration-ms="3008" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.codebase.WebTestClass3@2d2ffcb7]" started-at="2018-04-25T18:37:54Z" name="afterClass" finished-at="2018-04-25T18:37:56Z" duration-ms="2307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.codebase.WebTestClass3 -->
       <class name="com.codebase.WebTestClass">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.codebase.WebTestClass@58ea606c]" started-at="2018-04-25T14:22:48Z" name="beforeClass" finished-at="2018-04-25T14:23:15Z" duration-ms="26352" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.codebase.WebTestClass@68e5eea7]" started-at="2018-04-25T18:37:20Z" name="beforeClass" finished-at="2018-04-25T18:37:31Z" duration-ms="11530" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[setting value isnull]]>
@@ -135,37 +135,37 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Test01_Verify_Google_Title()[pri:0, instance:com.codebase.WebTestClass@58ea606c]" started-at="2018-04-25T14:23:15Z" name="Test01_Verify_Google_Title" finished-at="2018-04-25T14:23:15Z" duration-ms="53" status="PASS">
+        <test-method signature="Test01_Verify_Google_Title()[pri:0, instance:com.codebase.WebTestClass@68e5eea7]" started-at="2018-04-25T18:37:31Z" name="Test01_Verify_Google_Title" finished-at="2018-04-25T18:37:31Z" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01_Verify_Google_Title -->
-        <test-method signature="Test02_Verify_Google_Search_Button()[pri:0, instance:com.codebase.WebTestClass@58ea606c]" started-at="2018-04-25T14:23:15Z" name="Test02_Verify_Google_Search_Button" finished-at="2018-04-25T14:23:15Z" duration-ms="98" status="PASS">
+        <test-method signature="Test02_Verify_Google_Search_Button()[pri:0, instance:com.codebase.WebTestClass@68e5eea7]" started-at="2018-04-25T18:37:31Z" name="Test02_Verify_Google_Search_Button" finished-at="2018-04-25T18:37:31Z" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test02_Verify_Google_Search_Button -->
-        <test-method signature="Test03_Verify_Google_Feeling_Lucky_Button()[pri:0, instance:com.codebase.WebTestClass@58ea606c]" started-at="2018-04-25T14:23:15Z" name="Test03_Verify_Google_Feeling_Lucky_Button" finished-at="2018-04-25T14:23:15Z" duration-ms="90" status="PASS">
+        <test-method signature="Test03_Verify_Google_Feeling_Lucky_Button()[pri:0, instance:com.codebase.WebTestClass@68e5eea7]" started-at="2018-04-25T18:37:31Z" name="Test03_Verify_Google_Feeling_Lucky_Button" finished-at="2018-04-25T18:37:31Z" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03_Verify_Google_Feeling_Lucky_Button -->
-        <test-method signature="Test04_Verify_Google_Field()[pri:0, instance:com.codebase.WebTestClass@58ea606c]" started-at="2018-04-25T14:23:15Z" name="Test04_Verify_Google_Field" finished-at="2018-04-25T14:23:15Z" duration-ms="83" status="PASS">
+        <test-method signature="Test04_Verify_Google_Field()[pri:0, instance:com.codebase.WebTestClass@68e5eea7]" started-at="2018-04-25T18:37:31Z" name="Test04_Verify_Google_Field" finished-at="2018-04-25T18:37:32Z" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04_Verify_Google_Field -->
-        <test-method signature="Test05_Type_In_Google_Field()[pri:0, instance:com.codebase.WebTestClass@58ea606c]" started-at="2018-04-25T14:23:15Z" name="Test05_Type_In_Google_Field" finished-at="2018-04-25T14:23:15Z" duration-ms="406" status="PASS">
+        <test-method signature="Test05_Type_In_Google_Field()[pri:0, instance:com.codebase.WebTestClass@68e5eea7]" started-at="2018-04-25T18:37:32Z" name="Test05_Type_In_Google_Field" finished-at="2018-04-25T18:37:32Z" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05_Type_In_Google_Field -->
-        <test-method signature="Test06_Verify_Country_Name()[pri:0, instance:com.codebase.WebTestClass@58ea606c]" started-at="2018-04-25T14:23:15Z" name="Test06_Verify_Country_Name" finished-at="2018-04-25T14:23:15Z" duration-ms="120" status="PASS">
+        <test-method signature="Test06_Verify_Country_Name()[pri:0, instance:com.codebase.WebTestClass@68e5eea7]" started-at="2018-04-25T18:37:32Z" name="Test06_Verify_Country_Name" finished-at="2018-04-25T18:37:32Z" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test06_Verify_Country_Name -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.codebase.WebTestClass@58ea606c]" started-at="2018-04-25T14:23:15Z" name="afterClass" finished-at="2018-04-25T14:23:16Z" duration-ms="610" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.codebase.WebTestClass@68e5eea7]" started-at="2018-04-25T18:37:32Z" name="afterClass" finished-at="2018-04-25T18:37:34Z" duration-ms="2325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.codebase.WebTestClass -->
       <class name="com.codebase.WebTestClass2">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.codebase.WebTestClass2@6f45df59]" started-at="2018-04-25T14:23:16Z" name="beforeClass" finished-at="2018-04-25T14:23:27Z" duration-ms="11379" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.codebase.WebTestClass2@291b4bf5]" started-at="2018-04-25T18:37:34Z" name="beforeClass" finished-at="2018-04-25T18:37:42Z" duration-ms="7896" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[setting value isnull]]>
@@ -187,31 +187,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Test01_Verify_Google_Title()[pri:0, instance:com.codebase.WebTestClass2@6f45df59]" started-at="2018-04-25T14:23:27Z" name="Test01_Verify_Google_Title" finished-at="2018-04-25T14:23:27Z" duration-ms="8" status="PASS">
+        <test-method signature="Test01_Verify_Google_Title()[pri:0, instance:com.codebase.WebTestClass2@291b4bf5]" started-at="2018-04-25T18:37:42Z" name="Test01_Verify_Google_Title" finished-at="2018-04-25T18:37:42Z" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01_Verify_Google_Title -->
-        <test-method signature="Test02_Verify_Google_Search_Button()[pri:0, instance:com.codebase.WebTestClass2@6f45df59]" started-at="2018-04-25T14:23:27Z" name="Test02_Verify_Google_Search_Button" finished-at="2018-04-25T14:23:27Z" duration-ms="71" status="PASS">
+        <test-method signature="Test02_Verify_Google_Search_Button()[pri:0, instance:com.codebase.WebTestClass2@291b4bf5]" started-at="2018-04-25T18:37:42Z" name="Test02_Verify_Google_Search_Button" finished-at="2018-04-25T18:37:42Z" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test02_Verify_Google_Search_Button -->
-        <test-method signature="Test03_Verify_Google_Feeling_Lucky_Button()[pri:0, instance:com.codebase.WebTestClass2@6f45df59]" started-at="2018-04-25T14:23:27Z" name="Test03_Verify_Google_Feeling_Lucky_Button" finished-at="2018-04-25T14:23:28Z" duration-ms="78" status="PASS">
+        <test-method signature="Test03_Verify_Google_Feeling_Lucky_Button()[pri:0, instance:com.codebase.WebTestClass2@291b4bf5]" started-at="2018-04-25T18:37:42Z" name="Test03_Verify_Google_Feeling_Lucky_Button" finished-at="2018-04-25T18:37:42Z" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03_Verify_Google_Feeling_Lucky_Button -->
-        <test-method signature="Test04_Verify_Google_Field()[pri:0, instance:com.codebase.WebTestClass2@6f45df59]" started-at="2018-04-25T14:23:28Z" name="Test04_Verify_Google_Field" finished-at="2018-04-25T14:23:28Z" duration-ms="75" status="PASS">
+        <test-method signature="Test04_Verify_Google_Field()[pri:0, instance:com.codebase.WebTestClass2@291b4bf5]" started-at="2018-04-25T18:37:42Z" name="Test04_Verify_Google_Field" finished-at="2018-04-25T18:37:42Z" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04_Verify_Google_Field -->
-        <test-method signature="Test05_Type_In_Google_Field()[pri:0, instance:com.codebase.WebTestClass2@6f45df59]" started-at="2018-04-25T14:23:28Z" name="Test05_Type_In_Google_Field" finished-at="2018-04-25T14:23:28Z" duration-ms="368" status="PASS">
+        <test-method signature="Test05_Type_In_Google_Field()[pri:0, instance:com.codebase.WebTestClass2@291b4bf5]" started-at="2018-04-25T18:37:42Z" name="Test05_Type_In_Google_Field" finished-at="2018-04-25T18:37:43Z" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05_Type_In_Google_Field -->
-        <test-method signature="Test06_Verify_Country_Name()[pri:0, instance:com.codebase.WebTestClass2@6f45df59]" started-at="2018-04-25T14:23:28Z" name="Test06_Verify_Country_Name" finished-at="2018-04-25T14:23:28Z" duration-ms="122" status="PASS">
+        <test-method signature="Test06_Verify_Country_Name()[pri:0, instance:com.codebase.WebTestClass2@291b4bf5]" started-at="2018-04-25T18:37:43Z" name="Test06_Verify_Country_Name" finished-at="2018-04-25T18:37:43Z" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test06_Verify_Country_Name -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.codebase.WebTestClass2@6f45df59]" started-at="2018-04-25T14:23:28Z" name="afterClass" finished-at="2018-04-25T14:23:31Z" duration-ms="2463" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.codebase.WebTestClass2@291b4bf5]" started-at="2018-04-25T18:37:43Z" name="afterClass" finished-at="2018-04-25T18:37:45Z" duration-ms="2309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

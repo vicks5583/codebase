@@ -98,7 +98,7 @@
 						<inherited>true</inherited>
 						<configuration>
 							<!-- From Email address -->
-							<from>waqas.hussain.83@gmail.com</from>
+							<from>akbar55831@gmail.com</from>
 
 							<!-- Email subject -->
 							<subject>Scheduled Automation Script Report</subject>
@@ -116,7 +116,7 @@
 							<mailpassword>tinap786</mailpassword>
 							<receivers>
 								<!-- To Email address -->
-								<receiver>akbar55831@gmail.com</receiver>
+								<receiver>waqas.hussain.83@gmail.com</receiver>
 							</receivers>
 							<fileSets>
 								<fileSet>
