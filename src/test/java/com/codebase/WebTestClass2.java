@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import com.baseClass.BaseUi;
 import com.resources.DSLLibDesktop;
+import com.util.xlRW;
 
 public class WebTestClass2 {
 	DSLLibDesktop dsl;
@@ -14,14 +15,18 @@ public class WebTestClass2 {
 	  //public String xlPath_Res = "D:/Excels/userStatuses.xlsx";
 	  //public static String XData[][];
 	  //public String xlData[][];
+	//static String XLData[][];
+	//String Read = "D:/workspace/ExcelReports/TestCases/testCases.xlxs";
+	//String Write = "D:/workspace/ExcelReports/TestCases/Results/testResults.xlxs";
 	  
 
-	  @BeforeClass
+	@BeforeClass
 	  public void beforeClass() throws Exception {
 		  	dsl = new DSLLibDesktop();
 			//dsl.launchCubixCo();
 		  	dsl.launchGoogle();
 		  	//dsl.xlRead(xPath);
+		  	//dsl.xlRead(Read);
 		  	
 	  }
 	  
@@ -70,6 +75,6 @@ public class WebTestClass2 {
 		  dsl.closeBrowser();
 		  //xlwrite(xlPath_Res, XData);//Writes the results
 		  //BaseUi.xlwrite(xlPath_Res, XData);
-		  
+		  //BaseUi.xlwrite(Write, XLData);
 	  }
 }

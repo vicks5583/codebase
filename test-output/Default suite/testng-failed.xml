@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.codebase.WebTestClass2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Test06_Verify_Country_Name"/>
+          <include name="Test04_Verify_Google_Field"/>
+          <include name="Test02_Verify_Google_Search_Button"/>
+          <include name="Test03_Verify_Google_Feeling_Lucky_Button"/>
+          <include name="Test01_Verify_Google_Title"/>
+          <include name="beforeClass"/>
+          <include name="Test05_Type_In_Google_Field"/>
+        </methods>
+      </class> <!-- com.codebase.WebTestClass2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

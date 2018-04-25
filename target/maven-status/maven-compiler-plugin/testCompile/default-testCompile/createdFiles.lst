@@ -4,6 +4,7 @@ com\util\YamlReader.class
 com\codebase\WebTestClass2.class
 com\baseClass\BaseUi.class
 com\baseClass\AbstractClass.class
+com\util\xlRW.class
 com\resources\DSLLibDesktop.class
 com\codebase\ui\WebTestClass_UI.class
 com\baseClass\BaseClass.class

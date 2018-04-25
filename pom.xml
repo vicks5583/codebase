@@ -48,6 +48,17 @@
 			<artifactId>maven-resources-plugin</artifactId>
 			<version>2.7</version>
 		</dependency>
+		<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.9</version>
+</dependency>
+		<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.17</version>
+</dependency>
+		
 	</dependencies>
 	<build>
 		<plugins>
@@ -72,6 +83,56 @@
 						<!-- <suiteXmlFile>testng.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>ch.fortysix</groupId>
+				<artifactId>maven-postman-plugin</artifactId>
+				<version>0.1.6</version>
+				<executions>
+					<execution>
+						<id>send a mail</id>
+						<phase>test</phase>
+						<goals>
+							<goal>send-mail</goal>
+						</goals>
+						<inherited>true</inherited>
+						<configuration>
+							<!-- From Email address -->
+							<from>waqas.hussain.83@gmail.com</from>
+
+							<!-- Email subject -->
+							<subject>Scheduled Automation Script Report</subject>
+
+							<!-- Fail the build if the mail doesnt reach -->
+							<failonerror>true</failonerror>
+							<!-- host -->
+							<mailhost>smtp.gmail.com</mailhost>
+							<!-- port of the host -->
+							<mailport>465</mailport>
+							<mailssl>true</mailssl>
+							<mailAltConfig>true</mailAltConfig>
+							<!-- Email Authentication(USername and Password) -->
+							<mailuser>waqas.hussain.83@gmail.com</mailuser>
+							<mailpassword>Gimmeabreakwillya5</mailpassword>
+							<receivers>
+								<!-- To Email address -->
+								<receiver>waqas.hussain.83@gmail.com</receiver>
+							</receivers>
+							<fileSets>
+								<fileSet>
+									<!-- Report directory Path -->
+									<directory>D://workspace//codebase//test-output</directory>
+									<includes>
+										<!-- Report file name -->
+										<include>emailable-report.html</include>
+									</includes>
+									<!-- Use Regular Expressions like **/*.html if you want all the 
+										html files to send -->
+								</fileSet>
+							</fileSets>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

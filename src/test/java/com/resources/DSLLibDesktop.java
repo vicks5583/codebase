@@ -16,6 +16,10 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -43,8 +47,11 @@ public class DSLLibDesktop {
 	protected static DesiredCapabilities capabilities;
 	public boolean baseURL = true;
 	
-	public int XRows, XCols, count;
-	public String XData[][];
+	static String XLData[][];
+	public int XLRows;
+	public int XLCols;
+	public int count;
+	String Read = "c:/abc/abc.xlxs";
 	
 	public WebTestClass_UI webtestclass;
 	
@@ -233,6 +240,65 @@ public class DSLLibDesktop {
 		String Mydate = dateFormat.format(date);
 		return Mydate;
 		
+	}
+	
+	public void xlRead(String path) throws Exception{
+		File myxl = new File(path);
+		FileInputStream myStream = new FileInputStream(myxl);
+		XSSFWorkbook myworkbook = new XSSFWorkbook(myStream);
+		
+		
+		XSSFSheet sheet = myworkbook.getSheetAt(0);
+		XSSFRow row; 
+		XSSFCell cell;
+
+		Iterator rows = sheet.rowIterator();
+		
+		XLRows = sheet.getLastRowNum() + 1;
+		XLCols = sheet.getRow(0).getLastCellNum();
+		
+		System.out.println("My Rows are "+XLRows);
+		System.out.println("My Columns are "+XLCols);
+		XLData = new String[XLRows][XLCols];
+		int i = 0;
+		int j = 0;
+
+		Myloop:
+		while (rows.hasNext())
+		{
+			row=(XSSFRow) rows.next();
+			Iterator cells = row.cellIterator();
+			while (cells.hasNext())
+			{
+				cell=(XSSFCell) cells.next();
+		
+				if (cell.getCellType() == XSSFCell.CELL_TYPE_STRING)
+				{
+					XLData[i][j] = cell.getStringCellValue();
+					System.out.print(XLData[i][j]+" ");
+				}
+				else if(cell.getCellType() == XSSFCell.CELL_TYPE_NUMERIC)
+				{
+					XLData[i][j] = Double.toString(cell.getNumericCellValue());
+					System.out.print(XLData[i][j]+" ");
+				}
+				else
+				{
+					//U Can Handel Boolean, Formula, Errors
+					System.out.println();
+					System.out.println("Row "+(i+1)+" and Column "+(j+1)+" has unknow data type");
+					break Myloop;
+				}
+				
+				j++;
+			} 
+			
+			i++;
+			j=0;
+			System.out.println();
+				
+		}
+	
 	}
 
 }

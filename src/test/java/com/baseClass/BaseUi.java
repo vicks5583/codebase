@@ -15,6 +15,10 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -43,7 +47,9 @@ public class BaseUi extends AbstractClass {
 	private int waitTime = 120000;
 	protected static String setting;
 	
-	public int XRows, XCols;
+	static String XLData[][];
+	public static int XLRows;
+	public static int XLCols;
 	public static int count;
 
 	public WebElement waitForElementToload(WebElement element) {
@@ -687,6 +693,48 @@ public class BaseUi extends AbstractClass {
 
 			// Switch to newly opened window.
 			driver.switchTo().window(childWindow);
+	}
+	
+public static void xlwrite(String XLWriteOn, String[][] xldata) throws Exception{
+	
+		
+		File outFile = new File(XLWriteOn);
+		XSSFWorkbook myworkbook = new XSSFWorkbook();
+		XSSFSheet osheet = myworkbook.createSheet("Results");
+		
+		
+
+		//iterating r number of rows
+		for (int r=0;r < XLRows; r++ )
+		{
+			XSSFRow row = osheet.createRow(r);
+
+			//iterating c number of columns
+			for (int c=0;c < XLCols; c++ )
+			{
+				XSSFCell cell = row.createCell(c);
+	
+				cell.setCellType(XSSFCell.CELL_TYPE_STRING);
+				cell.setCellValue(xldata[r][c]);
+				System.out.println("Writting row "+(r+1)+" and column "+(c+1));
+				//osheet.autoSizeColumn(c);
+				
+				
+			} 
+		}
+		
+		FileOutputStream fOut = new FileOutputStream(outFile);
+
+		//Set column width
+		for(int i=0;i<XLCols;i++) {
+		osheet.setColumnWidth(i, 5000);	
+		}
+		
+		//write this workbook to an Outputstream.
+		myworkbook.write(fOut);
+		fOut.flush();
+		fOut.close();
+		
 	}
 	
 		
