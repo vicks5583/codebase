@@ -84,7 +84,7 @@
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
-			<!-- <plugin>
+			<plugin>
 				<groupId>ch.fortysix</groupId>
 				<artifactId>maven-postman-plugin</artifactId>
 				<version>0.1.6</version>
@@ -97,43 +97,43 @@
 						</goals>
 						<inherited>true</inherited>
 						<configuration>
-							From Email address
+							<!-- From Email address -->
 							<from>waqas.hussain.83@gmail.com</from>
 
-							Email subject
+							<!-- Email subject -->
 							<subject>Scheduled Automation Script Report</subject>
 
-							Fail the build if the mail doesnt reach
+							<!-- Fail the build if the mail doesnt reach -->
 							<failonerror>true</failonerror>
-							host
+							<!-- host -->
 							<mailhost>smtp.gmail.com</mailhost>
-							port of the host
+							<!-- port of the host -->
 							<mailport>465</mailport>
 							<mailssl>true</mailssl>
 							<mailAltConfig>true</mailAltConfig>
-							Email Authentication(USername and Password)
-							<mailuser>abc@abc.com</mailuser>
-							<mailpassword>********</mailpassword>
+							<!-- Email Authentication(USername and Password) -->
+							<mailuser>waqas.hussain.83@gmail.com</mailuser>
+							<mailpassword>Gimmeabreakwillya5</mailpassword>
 							<receivers>
-								To Email address
+								<!-- To Email address -->
 								<receiver>waqas.hussain.83@gmail.com</receiver>
 							</receivers>
 							<fileSets>
 								<fileSet>
-									Report directory Path
+									<!-- Report directory Path -->
 									<directory>D://workspace//codebase//test-output</directory>
 									<includes>
-										Report file name
+										<!-- Report file name -->
 										<include>emailable-report.html</include>
 									</includes>
-									Use Regular Expressions like **/*.html if you want all the 
-										html files to send
+									<!-- Use Regular Expressions like **/*.html if you want all the 
+										html files to send -->
 								</fileSet>
 							</fileSets>
 						</configuration>
 					</execution>
 				</executions>
-			</plugin> -->
+			</plugin>
 		</plugins>
 	</build>
 </project>
