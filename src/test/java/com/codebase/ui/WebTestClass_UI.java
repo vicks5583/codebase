@@ -50,6 +50,10 @@ public class WebTestClass_UI extends BaseUi {
 	@FindBy(css = "[class = 'Q8LRLc']")
 	private WebElement countryName;
 	
+	@FindBy(linkText = "Advertising")
+	private WebElement lnkAdvertising;
+	
+	
 	public void CheckGoogleTitle() {
 		Assert.assertEquals("Google", driver.getTitle()); 
 		// OR
@@ -91,6 +95,10 @@ public class WebTestClass_UI extends BaseUi {
 			System.out.println("Country Name not found");
 			
 		}
+	}
+	
+	public void CheckFooterLinkAdvertising() {
+		isElementDisplayed(lnkAdvertising);
 	}
 	
 

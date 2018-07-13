@@ -49,16 +49,16 @@
 			<version>2.7</version>
 		</dependency>
 		<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>3.9</version>
-</dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.9</version>
+		</dependency>
 		<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi</artifactId>
-    <version>3.17</version>
-</dependency>
-		
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
@@ -121,7 +121,7 @@
 							<fileSets>
 								<fileSet>
 									<!-- Report directory Path -->
-									<directory>D://workspace//codebase//test-output</directory>
+									<directory>E://workspace//codebase//test-output</directory>
 									<includes>
 										<!-- Report file name -->
 										<include>emailable-report.html</include>

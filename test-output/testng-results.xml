@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
     <line>
       <![CDATA[setting value isnull]]>
@@ -20,52 +20,12 @@
       <![CDATA[=================================================================]]>
     </line>
   </reporter-output>
-  <suite started-at="2018-04-25T12:23:17Z" name="Default suite" finished-at="2018-04-25T12:23:28Z" duration-ms="10994">
+  <suite name="Default suite" duration-ms="20725" started-at="2018-07-13T12:31:27Z" finished-at="2018-07-13T12:31:48Z">
     <groups>
     </groups>
-    <test started-at="2018-04-25T12:23:17Z" name="Default test" finished-at="2018-04-25T12:23:28Z" duration-ms="10994">
-      <class name="com.codebase.WebTestClass2">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.codebase.WebTestClass2@37858383]" started-at="2018-04-25T12:23:17Z" name="beforeClass" finished-at="2018-04-25T12:23:28Z" duration-ms="10936" status="FAIL">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:196)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
-at com.resources.DSLLibDesktop.xlRead(DSLLibDesktop.java:247)
-at com.codebase.WebTestClass2.beforeClass(WebTestClass2.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+    <test name="Default test" duration-ms="20725" started-at="2018-07-13T12:31:27Z" finished-at="2018-07-13T12:31:48Z">
+      <class name="com.codebase.WebTestClass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.codebase.WebTestClass@4bec1f0c]" name="beforeClass" is-config="true" duration-ms="18756" started-at="2018-07-13T12:31:27Z" finished-at="2018-07-13T12:31:46Z">
           <reporter-output>
             <line>
               <![CDATA[setting value isnull]]>
@@ -87,275 +47,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Test01_Verify_Google_Title()[pri:0, instance:com.codebase.WebTestClass2@37858383]" started-at="2018-04-25T12:23:28Z" name="Test01_Verify_Google_Title" finished-at="2018-04-25T12:23:28Z" duration-ms="0" status="SKIP">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:196)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
-at com.resources.DSLLibDesktop.xlRead(DSLLibDesktop.java:247)
-at com.codebase.WebTestClass2.beforeClass(WebTestClass2.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+        <test-method status="PASS" signature="Test01_Verify_Google_Title()[pri:0, instance:com.codebase.WebTestClass@4bec1f0c]" name="Test01_Verify_Google_Title" duration-ms="29" started-at="2018-07-13T12:31:46Z" finished-at="2018-07-13T12:31:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01_Verify_Google_Title -->
-        <test-method signature="Test02_Verify_Google_Search_Button()[pri:0, instance:com.codebase.WebTestClass2@37858383]" started-at="2018-04-25T12:23:28Z" name="Test02_Verify_Google_Search_Button" finished-at="2018-04-25T12:23:28Z" duration-ms="0" status="SKIP">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:196)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
-at com.resources.DSLLibDesktop.xlRead(DSLLibDesktop.java:247)
-at com.codebase.WebTestClass2.beforeClass(WebTestClass2.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+        <test-method status="PASS" signature="Test02_Verify_Google_Search_Button()[pri:0, instance:com.codebase.WebTestClass@4bec1f0c]" name="Test02_Verify_Google_Search_Button" duration-ms="157" started-at="2018-07-13T12:31:46Z" finished-at="2018-07-13T12:31:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test02_Verify_Google_Search_Button -->
-        <test-method signature="Test03_Verify_Google_Feeling_Lucky_Button()[pri:0, instance:com.codebase.WebTestClass2@37858383]" started-at="2018-04-25T12:23:28Z" name="Test03_Verify_Google_Feeling_Lucky_Button" finished-at="2018-04-25T12:23:28Z" duration-ms="0" status="SKIP">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:196)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
-at com.resources.DSLLibDesktop.xlRead(DSLLibDesktop.java:247)
-at com.codebase.WebTestClass2.beforeClass(WebTestClass2.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+        <test-method status="PASS" signature="Test03_Verify_Google_Feeling_Lucky_Button()[pri:0, instance:com.codebase.WebTestClass@4bec1f0c]" name="Test03_Verify_Google_Feeling_Lucky_Button" duration-ms="69" started-at="2018-07-13T12:31:46Z" finished-at="2018-07-13T12:31:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03_Verify_Google_Feeling_Lucky_Button -->
-        <test-method signature="Test04_Verify_Google_Field()[pri:0, instance:com.codebase.WebTestClass2@37858383]" started-at="2018-04-25T12:23:28Z" name="Test04_Verify_Google_Field" finished-at="2018-04-25T12:23:28Z" duration-ms="0" status="SKIP">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:196)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
-at com.resources.DSLLibDesktop.xlRead(DSLLibDesktop.java:247)
-at com.codebase.WebTestClass2.beforeClass(WebTestClass2.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+        <test-method status="PASS" signature="Test04_Verify_Google_Field()[pri:0, instance:com.codebase.WebTestClass@4bec1f0c]" name="Test04_Verify_Google_Field" duration-ms="93" started-at="2018-07-13T12:31:46Z" finished-at="2018-07-13T12:31:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04_Verify_Google_Field -->
-        <test-method signature="Test05_Type_In_Google_Field()[pri:0, instance:com.codebase.WebTestClass2@37858383]" started-at="2018-04-25T12:23:28Z" name="Test05_Type_In_Google_Field" finished-at="2018-04-25T12:23:28Z" duration-ms="0" status="SKIP">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:196)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
-at com.resources.DSLLibDesktop.xlRead(DSLLibDesktop.java:247)
-at com.codebase.WebTestClass2.beforeClass(WebTestClass2.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+        <test-method status="PASS" signature="Test05_Type_In_Google_Field()[pri:0, instance:com.codebase.WebTestClass@4bec1f0c]" name="Test05_Type_In_Google_Field" duration-ms="611" started-at="2018-07-13T12:31:46Z" finished-at="2018-07-13T12:31:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05_Type_In_Google_Field -->
-        <test-method signature="Test06_Verify_Country_Name()[pri:0, instance:com.codebase.WebTestClass2@37858383]" started-at="2018-04-25T12:23:28Z" name="Test06_Verify_Country_Name" finished-at="2018-04-25T12:23:28Z" duration-ms="0" status="SKIP">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: D:\workspace\ExcelReports\TestCases\testCases.xlxs (The system cannot find the file specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:196)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
-at com.resources.DSLLibDesktop.xlRead(DSLLibDesktop.java:247)
-at com.codebase.WebTestClass2.beforeClass(WebTestClass2.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+        <test-method status="PASS" signature="Test06_Verify_Country_Name()[pri:0, instance:com.codebase.WebTestClass@4bec1f0c]" name="Test06_Verify_Country_Name" duration-ms="166" started-at="2018-07-13T12:31:47Z" finished-at="2018-07-13T12:31:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test06_Verify_Country_Name -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.codebase.WebTestClass2@37858383]" started-at="2018-04-25T12:23:28Z" name="afterClass" finished-at="2018-04-25T12:23:28Z" duration-ms="0" status="SKIP">
+        <test-method status="PASS" signature="Test07_Verify_Advertising_Link()[pri:0, instance:com.codebase.WebTestClass@4bec1f0c]" name="Test07_Verify_Advertising_Link" duration-ms="179" started-at="2018-07-13T12:31:47Z" finished-at="2018-07-13T12:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test07_Verify_Advertising_Link -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.codebase.WebTestClass@4bec1f0c]" name="afterClass" is-config="true" duration-ms="499" started-at="2018-07-13T12:31:47Z" finished-at="2018-07-13T12:31:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.codebase.WebTestClass2 -->
+      </class> <!-- com.codebase.WebTestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

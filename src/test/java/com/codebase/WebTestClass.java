@@ -65,6 +65,11 @@ public class WebTestClass {
 		  dsl.webtestclass.CheckFooterCountryName();
 	  }
 	  
+	  @Test
+	  public void Test07_Verify_Advertising_Link() {
+		  dsl.webtestclass.CheckFooterLinkAdvertising();
+	  }
+	  
 	  @AfterClass
 	  public void afterClass() throws Exception {
 		  dsl.closeBrowser();
